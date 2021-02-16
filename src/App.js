@@ -28,6 +28,7 @@ const App = () => {
 					</div>
 
 					<Switch>
+						<Route exact path="/"  ><Home /> </Route>
 						<Route exact path="/home"  ><Home /> </Route>
 						<Route exact path="/appOne"  ><AppOne /> </Route>
 						<Route exact path="/appTwo"  ><AppTwo /> </Route>
